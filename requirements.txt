@@ -1,0 +1,16 @@
+ipykernel
+
+pathtools
+pickleshare
+scikit-learn
+scipy
+tensorflow
+
+numpy
+torch
+einops
+opt_einsum
+h5py
+matplotlib
+
+kolsol==1.0.1
