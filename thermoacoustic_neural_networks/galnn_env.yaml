@@ -1,0 +1,17 @@
+name: galnn_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - ipykernel=6.9.2
+  - ipython=8.1.1
+  - jupyter_client=7.1.2
+  - jupyter_core=4.9.2
+  - matplotlib=3.5.1
+  - numpy=1.21.5
+  - pathtools=0.1.2
+  - pickleshare=0.7.5
+  - python=3.9.10
+  - scikit-learn=1.0.2
+  - scipy=1.8.1
+  - tensorflow==2.9.1
