@@ -2,13 +2,38 @@
 Material for Newton Institute Tutorial 2023
 by Luca Magri with assistance from PhD students Defne Ozan and Daniel Kelshaw for the codes.
 
+## Setting Up:
+First create a new virtual environment
+
+```bash
+$ python -m venv venv;
+$ source venv/bin/activate
+```
+
+**Note:** You can equally use `conda`.
+
+Install the requirements:
+
+```bash
+$ pip install -r requirements.txt
+```
+
+Optionally create a new ipykernel:
+
+```bash
+$ python -m ipykernel install --user --name=newton_workshop
+```
+
+
+## Information:
+
 Handouts for feedforward and convolutional neural networks (no physics): https://doi.org/10.5281/zenodo.7538419
 
 Day 1: Feedforward neural networks; hard-physics-constrained neural networks for nonlinear waves.
 
 Day 2: Convolutional neural networks (CNNs); soft-physics-constrained CNNs for super-resolution of turbulence (Navier-Stokes PDEs)
 
-Outline:
+## Outline:
 
 Machine vs human modelling 
 
